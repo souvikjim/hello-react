@@ -1,1 +1,35 @@
 Bundler: webpack , vites, parcels are bundlers and  a bundler is a packaging app which bundles ur app and ships to productuion.
+
+Parcel:::--------------------
+    There are 2 typoes of dependencies we can install .
+    1. dev dependencies                                                                                  2. Normal dependencies.
+    Generally requiredwhile developing .                                                                  used in productuion as well.
+    command :   npm install -D parcel  
+    -D stand for dev dependencies
+
+^  ->minor update(caret)
+
+~  -> major update(tilde)
+
+Difference between package.json vs package-lock.json
+
+Package.json-:Its a configuratuion for npm , that what is the version is installed in the application .
+package-lock.json : It contains the exact version of packes that are being used in the aplication without any ~ or ^ .
+
+
+
+using the react dom crerting react project is not up to the mark, instead use npm
+
+
+
+What parcel does?->
+1. dev build.
+2. local server
+3. HMR = Hot module replacement done by file watching algo. 
+4. Caching
+5. Image opotimization
+6. minifying 
+7. Bundling
+8. compress
+9. Code splitting
+10. Tree shaking - remove unnecessary code 
