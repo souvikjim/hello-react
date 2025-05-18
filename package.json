@@ -1,0 +1,22 @@
+{
+  "name": "react-learning-ash",
+  "version": "1.0.0",
+  "description": "Learn react from ash.",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souvikjim/hello-react.git#main"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Souvik Mondal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/souvikjim/hello-react/issues"
+  },
+  "homepage": "https://github.com/souvikjim/hello-react/tree/main#readme"
+}

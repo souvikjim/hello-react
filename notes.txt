@@ -1,0 +1,1 @@
+Bundler: webpack , vites, parcels are bundlers and  a bundler is a packaging app which bundles ur app and ships to productuion.
