@@ -1,11 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const header = React.createElement(
-  "div",
-  {},
-  React.createElement("h1", {}, "Hello World"),
-  React.createElement("h2", {}, "This is Jim the developer.")
-);
-const rootElement = ReactDOM.createRoot(document.getElementById("root"));
-rootElement.render(header);
+// const heading = React.createElement("h1", {}, "heading");
+const ChildComponenet = () => {
+  return (
+    <div>
+      <h1>i am a child componenet. who is showing component composition </h1>
+    </div>
+  );
+};
+const ParentComponent = () => {
+  return (
+    <div>
+      {ChildComponenet()}
+      <ChildComponenet />
+      <h1>i am parent component holding the child</h1>
+    </div>
+  );
+};
+const rootEllemet = ReactDOM.createRoot(document.getElementById("root"));
+
+rootEllemet.render(<ParentComponent />);

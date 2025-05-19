@@ -22,7 +22,7 @@ using the react dom crerting react project is not up to the mark, instead use np
 
 
 
-What parcel does?->
+What parcel does?->::::::::::::::::::::::::::::::::::::::::::::::::::::::
 1. dev build.
 2. local server
 3. HMR = Hot module replacement done by file watching algo. 
@@ -33,3 +33,29 @@ What parcel does?->
 8. compress
 9. Code splitting
 10. Tree shaking - remove unnecessary code 
+
+
+
+bable:Its  babels job to transpile jsx code to react element::::::::::::::::::::::::::::::::::::::::::::::
+Jsx=> react.createElement =>js object which contains reactelement.=>htmlEllemet
+
+
+component composition :::::::::::::::::::::::::::::::::::::::::
+const ChildComponenet = () => {
+  return (
+    <div>
+      <h1>i am a child componenet. who is showing component composition </h1>
+    </div>
+  );
+};
+const ParentComponent = () => {
+  return (
+    <div>
+      <ChildComponenet />
+      <h1>i am parent component holding the child</h1>
+    </div>
+  );
+};
+
+when we use child component inside parent component inside a single page is called component composition
+
