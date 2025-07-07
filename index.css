@@ -28,12 +28,15 @@
 }
 
 /* body */
+.body {
+  padding: 0px 200px;
+}
 .search {
   padding: 10px;
 }
 .res-cards {
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: center;
   gap: 15px;
   flex-wrap: wrap;
 }
@@ -72,4 +75,18 @@ h4 {
 .star_timing > span {
   font-size: 12px;
   font-weight: 700;
+}
+.shimmer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.shimmer-card {
+  width: 200px;
+  height: 300px;
+  background-color: rgb(173, 173, 173);
+  padding: 10px;
+  border-radius: 4px;
 }
